@@ -12,7 +12,7 @@ Fig 8-c. 계절(테스트 구간 진행) × 시각 잔차 히트맵 — ExoTFT-R
 구간)이라 가로축이 월 단위 10칸 = 계절 흐름이 됩니다.
 
     ⚠ 이 구간의 ExoTFT-RF 예측이 dataset/results 에 있어야 합니다.
-      현재 들어 있는 site{N}_residual_adaptive_results.csv 는 테스트 구간
+      현재 들어 있는 site{N}_res_final_adaptive.csv 는 테스트 구간
       (2020-11-01 ~ 12-31)만 담고 있어, 그대로 실행하면 "구간 내 데이터 없음" 으로
       끝납니다. 롤링 구간 예측을 EXTRA_FILE 패턴의 CSV
       (컬럼: Time, True_Target, Rolling_Base_Pred)로 내려받아 두면 바로 그려집니다.
